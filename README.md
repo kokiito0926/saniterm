@@ -1,6 +1,18 @@
 ## saniterm
 
-sanitermは、安全にターミナルでテキストを表示できるようにサニタイズすることができるコマンドラインのツールです。
+sanitermは、安全にターミナルで表示できるように、テキストをサニタイズできるコマンドラインのツールです。
+
+## インストール
+
+```bash
+$ npm install --global @kokiito0926/saniterm
+```
+
+## 使用方法
+
+```bash
+$ curl -fsSL https://example.com/ | saniterm
+```
 
 ## ライセンス
 
