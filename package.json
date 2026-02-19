@@ -1,0 +1,42 @@
+{
+	"name": "@kokiito0926/saniterm",
+	"version": "0.0.0",
+	"private": false,
+	"description": "ターミナルに安全に表示できるようにサニタイズすることができるコマンドラインのツールです。",
+	"keywords": [
+		"cli",
+		"bash",
+		"shell",
+		"script",
+		"nodejs",
+		"terminal",
+		"sanitize",
+		"saniterm"
+	],
+	"homepage": "https://github.com/kokiito0926/saniterm#readme",
+	"publishConfig": {
+		"access": "public"
+	},
+	"bin": {
+		"saniterm": "index.js"
+	},
+	"bugs": {
+		"url": "https://github.com/kokiito0926/saniterm/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kokiito0926/saniterm.git"
+	},
+	"license": "MIT",
+	"author": "Koki Ito <kokiito0926@gmail.com>",
+	"type": "module",
+	"scripts": {
+		"test": "node --test"
+	},
+	"dependencies": {
+		"zx": "^8.8.4"
+	},
+	"engines": {
+		"node": ">=24.0.0"
+	}
+}
