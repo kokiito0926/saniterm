@@ -1,6 +1,6 @@
 {
 	"name": "@kokiito0926/saniterm",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"private": false,
 	"description": "安全にターミナルで表示できるように、テキストをサニタイズできるコマンドラインのツールです。",
 	"keywords": [
