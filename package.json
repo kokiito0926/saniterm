@@ -20,6 +20,9 @@
 	"bin": {
 		"saniterm": "index.js"
 	},
+	"files": [
+		"index.js"
+	],
 	"bugs": {
 		"url": "https://github.com/kokiito0926/saniterm/issues"
 	},
