@@ -2,9 +2,7 @@
 
 import { stdin, argv } from "zx";
 import wrapAnsi from "wrap-ansi";
-import striptags from "striptags";
 import stripAnsi from "strip-ansi";
-import { decode } from "html-entities";
 
 if (process.stdin.isTTY) {
 	process.exit(1);
@@ -17,10 +15,6 @@ if (!text) {
 
 const columns = argv?.columns || 80;
 // const width = argv?.width || process.stdout.columns || 80;
-
-text = striptags(text);
-
-text = decode(text);
 
 text = stripAnsi(text);
 
