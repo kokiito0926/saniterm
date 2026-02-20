@@ -2,7 +2,7 @@
 	"name": "@kokiito0926/saniterm",
 	"version": "0.0.2",
 	"private": false,
-	"description": "安全にターミナルで表示できるように、テキストをサニタイズできるコマンドラインのツールです。",
+	"description": "テキストをターミナル用にサニタイズできるコマンドラインのツールです。",
 	"keywords": [
 		"cli",
 		"bash",
